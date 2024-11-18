@@ -3470,7 +3470,8 @@ Created using IcoMoon - icomoon.io
   .card-signup .card-body {
     padding-top: 0px;
     padding-bottom: 0px;
-    min-height: auto; }
+    min-height: auto; 
+  }
   .card-signup .checkbox {
     margin-top: 20px; }
     .card-signup .checkbox label {
@@ -5212,13 +5213,32 @@ Created using IcoMoon - icomoon.io
   .progress-container .aos-animate {
     transform: scaleX(1); }
 
-/* Experience Style */
+
+
+/* Experience Style 2 */
 .cc-experience .cc-experience-header {
   padding-top: 60px;
-  padding-right: 0;
+  padding-right: 0px; /* Ensure no padding on the right */
+  padding-left: 0;  /* Ensure no padding on the left */
   text-align: center;
   color: #fff;
-  text-transform: uppercase; }
+  background-color: green;
+  text-transform: uppercase;
+  min-width: 275px;
+}
+
+  /*new test */
+
+  .cc-experience .row {
+    display: flex;
+  }
+  
+  .cc-experience .col-md-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 
 /* Education Style */
 .cc-education .h5 {
@@ -5228,11 +5248,15 @@ Created using IcoMoon - icomoon.io
   padding-top: 60px;
   padding-right: 0;
   text-align: center;
-  color: #fff; }
+  color: white; 
+  background-color: green;
+  min-width: 275px;
+}
 
 /* References Style */
 .cc-reference .card {
-  padding: 40px; }
+  padding: 40px; 
+}
 
 .cc-reference img {
   height: 120px;
