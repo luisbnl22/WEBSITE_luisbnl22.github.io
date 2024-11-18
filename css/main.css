@@ -4994,6 +4994,15 @@ Created using IcoMoon - icomoon.io
     top: 50%;
     transform: translateY(-50%); } }
 
+.gallery .cc-porfolio-image figure .h4 {
+  margin-bottom: 0.5em; /* Space below heading */
+}
+
+.gallery .cc-porfolio-image figure p {
+  margin: 0.5em 0; /* Space between paragraphs */
+}
+    
+
 /* Images Gallery Style*/
 .gallery .cc-porfolio-image figure {
   position: relative;
